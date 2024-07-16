@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: sans-serif;
+  color: white;
+}
+
+.zoom-on-hover {
+  transition: transform 0.3s ease-in-out;
+}
+
+.zoom-on-hover:hover {
+  transform: scale(1.05);
+}
+
+.parallax-container {
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
